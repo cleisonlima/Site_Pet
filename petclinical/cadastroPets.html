@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styleRestore.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css_cadastroPets.css" rel="stylesheet" type="text/css" />
+
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <div id="templatemo_container">
+        <div id="templatemo_topsection">
+            <div id="templatemo_topsection_title"> </div>
+            <div class="templatemo_topmenu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="petsAdocao.html">Animais para Adoção</a></li>
+                    <li><a href="cadastroPets.html">Cadastrar Animal</a></li>
+                    <li><a href="contato.html">Agendamento</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+
+            <br>
+
+            <br><br>
+            <h3>Cadastrar Animal</h3>
+
+        </center>
+        <center>
+
+            <form action="dadosClientes.php" method="POST">
+
+                <br> Suas informações:
+
+                <input type="text" name="nome" size="50" placeholder="Nome Completo:" required>
+                <input type="text" name="telefone" size="50" placeholder="Telefone:" required>
+                <input type="text" name="endereco" size="50" placeholder="Endereço:" required>
+                <input type="text" name="email" size="50" placeholder="E-mail:" required><br> Informações do animal:
+
+                <input type="text" name="nome" size="50" placeholder="Nome do Animal:" required>
+                <input type="text" name="raça" size="50" placeholder="Raça:" required>
+                <input type="text" name="porte" placeholder="Porte: Ex: Pequeno, médiou ou Grande." required>
+                <input type="text" name="peso" placeholder="Peso?" required>
+                <input type="text" name="enfermidade" placeholder="Alguma enfermidade?" required>
+                <input type="text" name="vacinacao" placeholder="Vacinação está em dia?" required>
+                <input type="text" name="sinais" placeholder="Sinais de maus tratos?" required>
+                <input type="text" name="docioou" placeholder="Dócil ou Agressivo?" required> Insira abaixo uma imagem do seu animal:
+                <br>
+                <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> <input type="file" /><br>
+
+                <textarea type="text" name="opiniao">Conte-nos porque está dando o animal para adoção:</textarea>
+
+                <input class="enviar" type="submit" name="enviar">
+
+            </form>
+
+        </center>
+
+    </div>
+
+</body>
+
+</html>

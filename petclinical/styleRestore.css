@@ -1,0 +1,90 @@
+body {
+    padding: ;
+    margin: ;
+    background-color: #251302;
+    background-image: url("https://s1.1zoom.me/big0/95/395959-svetik.jpg");
+    background-size: 1375px 650px;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(133, 120, 96);
+    height: 850px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(99, 57, 41);
+    border-radius: 30px;
+}
+
+.agendamento {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(133, 120, 96);
+    height: 650px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    border-radius: 30px;
+    border: 1px solid rgb(99, 57, 41);
+}
+
+h1 {
+    margin-left: 14px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 0px 9px rgb(182, 59, 21);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    color: black;
+    margin-left: px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: black;
+    box-shadow: 5px 0px 9px rgb(240, 237, 234);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+    color: rgb(100, 99, 99);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form label {
+    margin-left: 30px;
+    color: rgb(246, 245, 247);
+    font-weight: bold;
+}
+
+input.enviar {
+    width: 100px;
+    height: 40px;
+    font-family: verdana;
+    background-color: rgb(114, 112, 111);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(236, 236, 243);
+}
